@@ -1,0 +1,31 @@
+h3 {
+    text-align: center;
+    text-emphasis: bold;
+    color:maroon;
+    border:orange;
+    background-origin: padding-box;
+}
+
+
+h1,
+h5 {
+    text-align: center;
+    text-emphasis: bold;
+    color: darkmagenta;
+    background-color: papayawhip;
+    border-bottom: skyblue;
+}
+
+p {
+    text-align: justify;
+    text-decoration: slateblue;
+}
+
+.btn btn-primary {
+    align-items: center;
+    flex-direction: row;
+}
+
+footer {
+text-align-last: center;
+}
