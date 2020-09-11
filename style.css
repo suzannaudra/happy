@@ -1,31 +1,46 @@
-h3 {
-    text-align: center;
-    text-emphasis: bold;
-    color:maroon;
-    border:orange;
-    background-origin: padding-box;
+body,
+html {
+  height: 100%;
+
+  /* The image used */
+  background-image: url("https://expertphotography.com/wp-content/uploads/2019/06/pattern_landscape.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+h3 {
+  text-align: center;
+  text-emphasis: bold;
+  color: maroon;
+  border: orange;
+  background-origin: padding-box;
+}
 
 h1,
 h5 {
-    text-align: center;
-    text-emphasis: bold;
-    color: darkmagenta;
-    background-color: papayawhip;
-    border-bottom: skyblue;
+  text-align: center;
+  text-emphasis: bold;
+  color: darkmagenta;
+  background-color: papayawhip;
+  border-bottom: skyblue;
 }
 
 p {
-    text-align: justify;
-    text-decoration: slateblue;
+  text-align: justify;
+  text-decoration: slateblue;
 }
 
 .btn btn-primary {
-    align-items: center;
-    flex-direction: row;
+  align-items: center;
+  flex-direction: row;
 }
 
 footer {
-text-align-last: center;
+  text-align-last: center;
 }
