@@ -15,7 +15,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <!-- <link rel="stylesheet" type="text/css" href="style.css">-->
+    <link rel="stylesheet" type="text/css" href="style.css">
     <br />
     <br />
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -39,11 +39,19 @@
           </li>
       </div>
     </nav>
-    <br />
-    <br />
-    <button onclick="nextWord();style.display = 'none' ">Get Inspired</button>
-    <div id="nextWord"></div>
+    <div id="directions">
+      <p>Click for an inspiring quote!</p>
 
+    </div>
+    <br />
+    <br />
+    <div id="buttonContainer">
+    <button id="quoteButton" onclick="nextWord(); ">Get Inspired</button>
+    <br>
+    <br>
+    <br>
+    <div id="nextWord" class="returnQuote"></div>
+    </div>
     <script type="text/javascript" src="assets.js"></script>
   </head>
 </html>

@@ -32,7 +32,7 @@ h5 {
 }
 
 p {
-  text-align: justify;
+  text-align: center;
   text-decoration: slateblue;
 }
 
@@ -47,4 +47,43 @@ p {
 
 footer {
   text-align-last: center;
+}
+
+.returnQuote {
+  border: 2px;
+  text-align: center;
+  text-emphasis: bold;
+  color: teal;
+  background-color: papayawhip;
+  font-size: 60px;
+  width: auto;
+  height: auto;
+  margin: 0;
+  display: block;
+  border-radius:10px;
+  border:  10px #000;
+  position: relative;
+}
+
+#quoteButton {
+  text-align: center;
+}
+
+#buttonContainer{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  
+}
+
+#directions {
+  border: 2px;
+  text-align: center;
+  background-color: rgb(169, 201, 212);
+ 
+  color:papayawhip;
+  font-size: 30px;
+  margin: auto;
+  width: 50%;
+  height: auto;
 }
