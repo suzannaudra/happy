@@ -3,7 +3,7 @@ html {
   height: 100%;
 
   /* The image used */
-  background-image: url("https://expertphotography.com/wp-content/uploads/2019/06/pattern_landscape.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2016/04/11/15/49/kawazu-1322318_1280.jpg");
 
   /* Full height */
   height: 100%;
@@ -22,13 +22,18 @@ h3 {
   background-origin: padding-box;
 }
 
+.nav-link {
+  color: papayawhip;
+  font-size: large;
+}
+
 .title9 {
   margin: 0 auto;
   width: 50%;
   height: auto;
   text-align: center;
   text-emphasis: bold;
-  color:  papayawhip;
+  color: papayawhip;
   position: relative;
 }
 
@@ -41,7 +46,6 @@ h5 {
   margin: 0 auto;
   width: 50%;
   height: auto;
-  
 }
 
 p {
@@ -66,7 +70,7 @@ footer {
   border: 2px;
   text-align: center;
   text-emphasis: bold;
-  color:  papayawhip;
+  color: papayawhip;
   font-size: 60px;
   width: auto;
   height: auto;
