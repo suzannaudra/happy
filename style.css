@@ -22,13 +22,26 @@ h3 {
   background-origin: padding-box;
 }
 
-h1,
+.title9 {
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  text-emphasis: bold;
+  color:  papayawhip;
+  position: relative;
+}
+
 h5 {
   text-align: center;
   text-emphasis: bold;
   color: darkmagenta;
   background-color: papayawhip;
   border-bottom: skyblue;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  
 }
 
 p {
@@ -53,8 +66,7 @@ footer {
   border: 2px;
   text-align: center;
   text-emphasis: bold;
-  color: teal;
-  background-color: papayawhip;
+  color:  papayawhip;
   font-size: 60px;
   width: auto;
   height: auto;
@@ -78,10 +90,8 @@ footer {
 #directions {
   border: 2px;
   text-align: center;
-  background-color: rgb(169, 201, 212);
-
   color: papayawhip;
-  font-size: 30px;
+  font-size: 40px;
   margin: 0 auto;
   width: 50%;
   height: auto;
