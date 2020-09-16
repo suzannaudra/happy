@@ -41,11 +41,11 @@ h5 {
   text-align: center;
   text-emphasis: bold;
   color: darkmagenta;
-  background-color: papayawhip;
   border-bottom: skyblue;
   margin: 0 auto;
-  width: 50%;
+  width: 30%;
   height: auto;
+  box-sizing: border-box;
 }
 
 p {
@@ -53,6 +53,10 @@ p {
   text-decoration: slateblue;
 }
 
+.card-body {
+  box-sizing: border-box;
+  background-color: papayawhip;
+}
 .btn btn-primary {
   margin: 0;
   position: absolute;
