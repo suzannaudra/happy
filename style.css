@@ -88,6 +88,8 @@ footer {
   border-radius: 10px;
   border: 10px #000;
   position: relative;
+  font-family: Impact, Charcoal, sans-serif;
+  text-shadow: 4px 4px 10px purple;
 }
 
 #quoteButton {
@@ -103,9 +105,11 @@ footer {
 #directions {
   border: 2px;
   text-align: center;
-  color: papayawhip;
+  color: paleturquoise;
   font-size: 40px;
   margin: 0 auto;
   width: 50%;
   height: auto;
+  font-family: Impact, Charcoal, sans-serif;
+  text-shadow: 2px 2px 8px purple;
 }
