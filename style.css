@@ -35,6 +35,7 @@ h3 {
   text-emphasis: bold;
   color: papayawhip;
   position: relative;
+  font-family: Impact, Charcoal, sans-serif;
 }
 
 h5 {
@@ -46,17 +47,21 @@ h5 {
   width: 30%;
   height: auto;
   box-sizing: border-box;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: x-large;
 }
 
-p {
+.card-text {
   text-align: center;
-  text-decoration: slateblue;
+  color: rgb(15, 36, 29);
+  font-size: medium;
 }
 
 .card-body {
   box-sizing: border-box;
   background-color: papayawhip;
 }
+
 .btn btn-primary {
   margin: 0;
   position: absolute;
