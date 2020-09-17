@@ -17,4 +17,9 @@ var nextWord = function () {
   ];
   var randomItem = quote[Math.floor(Math.random() * quote.length)];
   document.getElementById("nextWord").innerHTML = randomItem;
-};
+  
+  var x = document.getElementById("directions");
+  if (x.style.display !== "none") {
+    x.style.display = "none";
+  }
+  };
