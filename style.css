@@ -92,13 +92,14 @@ footer {
   text-shadow: 4px 4px 10px purple;
 }
 
+
 #quoteButton {
   border-radius: 15px;
   font-family: Impact, Charcoal, sans-serif;
   text-align: center;
   cursor: pointer;
   animation-duration: 1s;
-  animation-name: fadein;
+  animation-name: bounceInDown;
   font-size: 20px;
   border: none;
   padding: 15px 32px;
@@ -106,16 +107,24 @@ footer {
   margin: 4px 2px;
   color: palevioletred;
   background-color: papayawhip;
-}
-@keyframes fadein {
-  from {
-    opacity: 0; 
-  }
 
-  to {
-    opacity: 1;
-  }
 }
+@keyframes bounceInDown {
+  0% {
+     opacity: 0;
+     transform: translateY(-2000px);
+  }
+  60% {
+     opacity: 1;
+     transform: translateY(30px);
+  }
+  80% {
+     transform: translateY(-10px);
+  }
+  100% {
+     transform: translateY(0);
+  }
+} 
 
 #buttonContainer {
   text-align: center;
