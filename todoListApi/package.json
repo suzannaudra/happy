@@ -1,0 +1,29 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "Encouragement Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suzannaudra/happy.git"
+  },
+  "keywords": [
+    "positivity"
+  ],
+  "author": "Suzann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suzannaudra/happy/issues"
+  },
+  "homepage": "https://github.com/suzannaudra/happy#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
