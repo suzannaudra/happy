@@ -23,3 +23,7 @@ var nextWord = function () {
     x.style.display = "none";
   }
   };
+
+
+
+
