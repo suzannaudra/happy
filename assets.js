@@ -13,7 +13,15 @@ var nextWord = function () {
     "Your passion is waiting for your courage to catch up",
     "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
     "Great things are done by a series of small things brought together.",
-    "Unsuccessful people make their decisions based on their current situations. Successful people make their decisions based on where they want to be."
+    "Unsuccessful people make their decisions based on their current situations. Successful people make their decisions based on where they want to be.", 
+    "Trust because you are willing to accept the risk, not because it's safe ot certain.",
+    "Good things come to people who wait, but better things come to those who go out and get them.",
+    "Success is walking from failure to failure with no loss of enthusiasm.",
+    "Try not to become a person of success, but rather try to become a person of value.",
+    "No one can make you feel inferior without your consent.",
+    "If you're going through hell keep going.",
+    "When you stop chasing the wrong things, you give the right things a chance to catch you."
+
   ];
   var randomItem = quote[Math.floor(Math.random() * quote.length)];
   document.getElementById("nextWord").innerHTML = randomItem;
