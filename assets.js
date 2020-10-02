@@ -1,3 +1,5 @@
+//Random Quote generator function
+
 var nextWord = function () {
   var quote = [
     "What we fear doing most is someting we need to do.",
@@ -32,6 +34,21 @@ var nextWord = function () {
   }
   };
 
+// Calling the carousel function on the body page
+  $("button").click(() => $(".carousel").carousel("next"));
+  $("button").click(() => $(".carousel").carousel("prev"));
 
+  // Activate Carousel
+$("#myCarousel").carousel();
 
+// Enable Carousel Indicators
+$(".item").click(function(){
+  $("#myCarousel").carousel(1);
+});
 
+$(".carousel-control-prev-icon").click(function(){
+  $("#myCarousel").carousel("prev");
+});
+$(".carousel-control-next-icon").click(function(){
+  $("#myCarousel").carousel("next");
+});
