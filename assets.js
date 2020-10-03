@@ -34,21 +34,16 @@ var nextWord = function () {
   }
   };
 
-// Calling the carousel function on the body page
-  $("button").click(() => $(".carousel").carousel("next"));
-  $("button").click(() => $(".carousel").carousel("prev"));
 
-  // Activate Carousel
-$("#myCarousel").carousel();
 
-// Enable Carousel Indicators
-$(".item").click(function(){
-  $("#myCarousel").carousel(1);
+
+$(document).ready(function(){
+  $(".prev-slide").click(function(){
+      $("#myCarousel").carousel('prev');
+  });
 });
-
-$(".carousel-control-prev-icon").click(function(){
-  $("#myCarousel").carousel("prev");
-});
-$(".carousel-control-next-icon").click(function(){
-  $("#myCarousel").carousel("next");
+$(document).ready(function(){
+  $(".next-slide").click(function(){
+      $("#myCarousel").carousel('next');
+  });
 });
