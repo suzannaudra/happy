@@ -18,6 +18,9 @@ h3 {
   background-origin: padding-box;
 }
 
+.navbar {
+  border-bottom: 3px solid papayawhip;
+}
 .nav-link {
   color: papayawhip;
   font-size: large;
