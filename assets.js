@@ -47,3 +47,25 @@ $(document).ready(function(){
       $("#myCarousel").carousel('next');
   });
 });
+
+
+$(document).ready(function(){
+  $("#bookbutton").click(function(){
+    $("#Appdiv").hide(1000);
+    $("#articlesdiv").hide(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#Appbutton").click(function(){
+    $("#booksdiv").hide(1000);
+    $("#articlesdiv").hide(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#articlesbutton").click(function(){
+    $("#booksdiv").hide(1000);
+    $("#Appdiv").hide(1000);
+  });
+});
