@@ -50,22 +50,32 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
+  $("#booksdiv").hide()
+  $("#articlesdiv").hide()
+  $("#Appdiv").hide()
   $("#bookbutton").click(function(){
-    $("#Appdiv").hide(1000);
-    $("#articlesdiv").hide(1000);
-  });
-});
+    $("#bookbutton").hide(1000);
+    $("#booksdiv").show(1000);
+    $("#articlesdiv").hide()
+    $("#Appdiv").hide()
+    $("#Appbuttondiv").show()
+    $("#articlesbuttondiv").show()
+  })
 
-$(document).ready(function(){
   $("#Appbutton").click(function(){
-    $("#booksdiv").hide(1000);
-    $("#articlesdiv").hide(1000);
-  });
-});
-
-$(document).ready(function(){
+    $("#Appdiv").show(1000); 
+    $("#Appbuttondiv").hide(1000);
+    $("#booksdiv").hide()
+    $("#articlesdiv").hide()
+    $("#bookbutton").show()
+    $("#articlesbuttondiv").show()
+  })
   $("#articlesbutton").click(function(){
-    $("#booksdiv").hide(1000);
-    $("#Appdiv").hide(1000);
+    $("#articlesdiv").show(1000);  
+    $("#articlesbuttondiv").hide(1000);
+    $("#booksdiv").hide()
+    $("#bookbutton").show()
+    $("#Appbuttondiv").show()
+    $("#Appdiv").hide()
   });
 });
