@@ -60,6 +60,7 @@ $(document).ready(function(){
     $("#Appdiv").hide()
     $("#Appbuttondiv").show()
     $("#articlesbuttondiv").show()
+    $(".title9").hide()
   })
 
   $("#Appbutton").click(function(){
@@ -69,6 +70,7 @@ $(document).ready(function(){
     $("#articlesdiv").hide()
     $("#bookbutton").show()
     $("#articlesbuttondiv").show()
+    $(".title9").hide()
   })
   $("#articlesbutton").click(function(){
     $("#articlesdiv").show(1000);  
@@ -77,5 +79,6 @@ $(document).ready(function(){
     $("#bookbutton").show()
     $("#Appbuttondiv").show()
     $("#Appdiv").hide()
+    $(".title9").hide()
   });
 });
