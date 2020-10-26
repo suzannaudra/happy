@@ -230,3 +230,18 @@ iframe {
 .card button:hover {
   opacity: 0.7;
 }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+#bookcard {
+  width: 320px;
+  padding: 20px;
+  border: 1px solid #c9c9c9;
+}
+
+img {
+  align-self: center;
+}
